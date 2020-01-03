@@ -1,0 +1,14 @@
+/* SOBRE */
+
+#icone{
+    margin-top: 5%;
+    width: 20%;
+    height: 30%;
+}
+
+#divsobre p {
+    font-size: 1.5vw;
+    color: black;
+    padding: 5%;;
+    opacity: 80%;
+}

@@ -1,0 +1,14 @@
+/* HOME */
+
+p{
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    position: relative;
+    padding-top: 20%;
+    color: white;
+}
+
+#banner{
+    background-image: url("img/banner.jpg");
+}
