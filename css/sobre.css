@@ -1,7 +1,11 @@
 /* SOBRE */
 
+#divsobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #icone{
-    margin-top: 5%;
     width: 20%;
     height: 30%;
 }
@@ -11,4 +15,9 @@
     color: black;
     padding: 5%;;
     opacity: 80%;
+}
+
+#conhecaosplanos{
+    font-size: 1.7vw;
+    padding: 1vh 1.8vw;
 }

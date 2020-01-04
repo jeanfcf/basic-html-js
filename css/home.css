@@ -2,13 +2,22 @@
 
 p{
     font-size: 1.5vw;
-    font-weight: bold;
-    font-family: 'Montserrat';
-    position: relative;
-    padding-top: 20%;
     color: white;
 }
 
+#saibamais{
+    margin: 2%;
+    font-size: 1.2vw;
+    padding: 1vh 1.8vw;
+}
+
 #banner{
+    display: flex;
+    flex-direction: column;
     background-image: url("img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+
 }
