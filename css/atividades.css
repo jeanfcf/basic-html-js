@@ -36,7 +36,7 @@
     font-family: 'Montserrat';
     font-weight: bold;
     font-size: 1.5vw;
-    opacity: 80%;
+
     text-align: center;
     color: white;
     z-index: 20;
@@ -49,9 +49,6 @@
     height: 25%;
     border-radius: 10px;
     overflow: hidden;
-}
-.atividades img{
-    opacity: 25%;
 }
 
 .cardsleft{
