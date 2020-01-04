@@ -6,14 +6,23 @@
     border-radius: 10px;
     width: 35%;
     height: 28vh;
-    background-image: linear-gradient(rgba(0,0,0,0.77),rgba(0,0,0,0.77)), url("img/pilates.jpeg");
     background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
 }
 
 .cards:hover{
     justify-content: start;
+}
+
+.cards:hover .cardssaibamais{
+    display: none;
+}
+.cards:hover .descricao{
+    display: flex;
+    text-align: center;
+}
+.descricao{
+    display: none;
 }
 .titulocards{
     color: #ff471a;
@@ -41,4 +50,29 @@
     align-items: center;
     width: 100%;
     height: 100vh;
+}
+
+#topleft{
+    background-image:linear-gradient(rgba(0,0,0,0.77),rgba(0,0,0,0.77)), url("img/gym.jpeg");
+}
+
+#midleft{
+    background-image:linear-gradient(rgba(0,0,0,0.77),rgba(0,0,0,0.77)), url("img/cross.jpeg");
+}
+
+#botleft{
+    background-image:linear-gradient(rgba(0,0,0,0.77),rgba(0,0,0,0.77)), url("img/dance.jpeg");
+}
+
+#topright{
+    background-image:linear-gradient(rgba(0,0,0,0.77),rgba(0,0,0,0.77)), url("img/musculacao.jpeg");
+}
+
+#midright{
+    background-image:linear-gradient(rgba(0,0,0,0.77),rgba(0,0,0,0.77)), url("img/pilates.jpeg");
+}
+
+#botright{
+    background-image:linear-gradient(rgba(0,0,0,0.77),rgba(0,0,0,0.77)), url("img/bike.jpeg");
+    background-position: center;
 }
