@@ -28,7 +28,7 @@
     color: #ff471a;
     font-size: 3vw;
 }
-.atividades{
+#divatividades{
     display: flex;
     flex-direction: column;
 }
