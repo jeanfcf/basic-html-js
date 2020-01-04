@@ -1,0 +1,68 @@
+#contato{
+    flex-wrap: wrap;
+}
+
+#buttonenviar{
+    margin: 0;
+    font-size: 1.5vw;
+    width: 10%;
+}
+.enviar{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+.titulocontato{
+color: white;;
+font-size: 2vw;
+text-align: center;
+margin-top: 1%;
+}
+
+.inputext{
+    font-size: 1.5vw;
+    width: 35vw;
+    height: 7vh;
+    border-radius: 8px;
+}
+
+.form{
+    display: flex;
+    flex-flow: column wrap;
+    width: 75%;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+#msg{
+    height: 100%;
+    resize: none;
+}
+.label{
+    width: 100%;
+    height: 10%;
+}
+.formulariu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    background-image: url("img/contato.png");
+    background-size: cover;
+    height: 70vh;
+}
+.formulario{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.footer{
+    align-self: flex-end;
+    width: 100%;
+    height: 30vh;
+    background-color: #ececec;
+}

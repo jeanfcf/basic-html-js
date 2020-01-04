@@ -1,10 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat';
+    font-weight: bold;
 }
 
 .bloco{
-    position: relative;
+    display: flexbox;
+    justify-content: start;
     width: 100vw;
     height: 100vh;
     min-height: fit-content;
