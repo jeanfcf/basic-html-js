@@ -22,11 +22,37 @@ nav ul{
 }
 
 nav ul li {
-    width: 10%;
+    width: fit-content;
+    margin-left: 5%;
 }
 
 nav ul li a{
-    font-size: 1.2vw;
+    font-size: 25px;
     color: white;
     text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 997px){
+    nav ul li a{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 675px){
+    .logo{
+        margin-left: 0;
+        transform: scale(0.5);
+    }
+
+    nav ul li a{
+        font-size: 10px;
+    }
+
+    nav ul li {
+        width: fit-content;
+        margin-left: auto;
+    }
 }

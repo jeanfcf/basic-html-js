@@ -11,13 +11,38 @@
 }
 
 #divsobre p {
-    font-size: 1.5vw;
+    font-size: 25px;
     color: black;
     padding: 5%;;
     opacity: 80%;
 }
 
 #conhecaosplanos{
-    font-size: 1.7vw;
+    font-size: 25px;
     padding: 1vh 1.8vw;
+}
+
+
+
+@media screen and (max-width: 997px){
+    #divsobre p {
+        font-size: 20px;
+    }
+    
+    #conhecaosplanos{
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+}
+
+
+@media screen and (max-width: 675px){
+    #divsobre p {
+        font-size: 15px;
+    }
+    
+    #conhecaosplanos{
+        font-size: 15px;
+        margin-bottom: 5%;
+    }
 }

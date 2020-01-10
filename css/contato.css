@@ -2,31 +2,28 @@
     flex-wrap: wrap;
 }
 
-#buttonenviar{
-    margin: 0;
-    font-size: 1.5vw;
-    width: 10%;
-}
+
 .enviar{
-    margin-top: 2%;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
 }
 .titulocontato{
 color: white;;
-font-size: 2vw;
+font-size: 40px;
 text-align: center;
 margin-top: 1%;
 }
 
 .inputext{
-    font-size: 1.5vw;
+    font-size: 20px;
     width: 35vw;
     height: 7vh;
     border-radius: 8px;
 }
 
 .form{
+    margin-top: 2%;
     display: flex;
     flex-flow: column wrap;
     width: 75%;
@@ -39,7 +36,7 @@ margin-top: 1%;
     resize: none;
 }
 #buttonenviar{
-    font-size: 1.7vw;
+    font-size: 30px;
     padding: 1vh 1.8vw;
 }
 .label{
@@ -109,6 +106,56 @@ margin-top: 1%;
 
 .informacoes{
     text-decoration: none;
-    font-size: 1vw;
+    font-size: 15px;
     color: black;
+}
+
+@media screen and (max-width: 1024px){
+    .informacoes{
+        font-size: 13px;
+    }
+  
+}
+@media screen and (max-width: 997px){
+
+    #buttonenviar{
+        font-size: 15px;
+    }
+
+    .titulocontato{
+        font-size: 30px;
+    }
+
+    .formulariu{
+        background-position-x: 25%;
+    }
+    .informacoes{
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 675px){
+    
+    .titulocontato{
+        font-size: 20px;
+        }
+    #buttonenviar{
+        font-size: 15px;
+    }
+    .inputext{
+        font-size: 15px;
+    }
+
+    .upfooter{
+        flex-direction: column;
+        width: 90%;
+        height: fit-content;
+    }
+    
+    .downfooter{
+        flex-direction: column;
+        height: fit-content;
+    }
+    
 }

@@ -2,18 +2,18 @@
 
     width: 100%;
     color: #ff471a;
-    font-size: 3vw;
+    font-size: 50px;
     margin-top: 2%;
     margin-bottom: 3%;
 }
 
 .titulocardsplanos{
     color: black;
-    font-size: 2vw;
+    font-size: 32px;
 }
 .divcardsplanos{
     width: 100%;
-    margin-top: 1%;
+    margin-top: 2%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -21,7 +21,7 @@
 }
 
 .cardsplanos:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 #iconeplanos{
     height: 35%;
@@ -42,7 +42,7 @@
 }
 
 #comprar{
-    font-size: 1.7vw;
+    font-size: 25px;
     padding: 1vh 1.8vw;
 }
 
@@ -54,4 +54,54 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+}
+
+
+@media screen and (max-width: 997px){
+
+
+    #comprar{
+        margin: 8%;
+        font-size: 15px;
+    }
+
+    .tituloplanos{
+        font-size: 35px;
+    }
+    .titulocardsplanos{
+        font-size: 20px;
+    }
+
+    .divcardsplanos{
+     margin-bottom: 10%;
+    }
+
+}
+
+
+@media screen and (max-width: 675px){
+  
+    #comprar{
+        margin: 8%;
+        font-size: 10px;
+    }
+
+    .tituloplanos{
+        font-size: 20px;
+    }
+    .titulocardsplanos{
+        font-size: 10px;
+        margin-top: 5%;
+    }
+
+
+    .divcardsplanos{
+        flex-direction: column;
+    }
+
+    .cardsplanos{
+        width: 80vw;
+        height: 30vh;
+        margin: 7%;
+    }
 }

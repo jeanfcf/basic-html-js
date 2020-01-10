@@ -1,13 +1,13 @@
 /* HOME */
 
 p{
-    font-size: 1.5vw;
+    font-size: 25px;
     color: white;
 }
 
 #saibamais{
     margin: 2%;
-    font-size: 1.2vw;
+    font-size: 25px;
     padding: 1vh 1.8vw;
 }
 
@@ -19,5 +19,38 @@ p{
     background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
+    
+
+}
+
+
+
+@media screen and (max-width: 997px){
+
+    #saibamais{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 675px){
+  
+    #banner{
+        background-position-x: 25%;
+    }
+
+    #saibamais{
+        font-size: 10px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
 
 }
